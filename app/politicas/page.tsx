@@ -458,12 +458,14 @@ export default function PoliticaPrivacidad() {
             personales, puedes comunicarte con nuestro equipo de soporte.
           </p>
 
-          <Link
-            href="/ayuda"
-            className="mt-5 inline-flex rounded-xl bg-[#2EC4B6] px-5 py-3 text-sm font-bold text-white transition hover:opacity-90"
-          >
-            Ayuda y soporte
-          </Link>
+          <a
+  href="https://wa.me/573161450609?text=Hola%20Ecl%C3%ADpsa%2C%20tengo%20una%20consulta%20sobre%20la%20pol%C3%ADtica%20de%20privacidad."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-5 inline-flex rounded-xl bg-[#2EC4B6] px-5 py-3 text-sm font-bold text-white transition hover:opacity-90"
+>
+  Ayuda y soporte
+</a>
         </section>
 
         {/* Footer */}
