@@ -38,7 +38,7 @@ export default function PoliticaPrivacidad() {
         {/* Introducción */}
         <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
           <p className="text-[16px] leading-7 text-[#5F5651]">
-            En <strong>Rimoda</strong> valoramos tu privacidad. Esta política
+            En <strong>Eclípsa</strong> valoramos tu privacidad. Esta política
             explica qué información recopilamos, cómo la utilizamos, con quién
             podemos compartirla y cuáles son tus derechos sobre tus datos
             personales cuando utilizas nuestra aplicación y nuestros servicios.
@@ -76,12 +76,19 @@ export default function PoliticaPrivacidad() {
 
           <div className="space-y-3">
             <ListItem text="Nombre" />
-            <ListItem text="Documento de identidad, cuando sea necesario para determinadas operaciones" />
+
+            <ListItem text="Documento de identidad" />
+
             <ListItem text="Correo electrónico" />
+
             <ListItem text="Número de teléfono" />
+
             <ListItem text="Direcciones de entrega" />
+
             <ListItem text="Información relacionada con pedidos y compras" />
+
             <ListItem text="Información necesaria para procesar pagos" />
+
             <ListItem text="Información técnica necesaria para el funcionamiento y seguridad de la aplicación" />
           </div>
         </section>
@@ -114,18 +121,26 @@ export default function PoliticaPrivacidad() {
 
           <div className="mt-4 space-y-3">
             <ListItem text="Crear y administrar tu cuenta." />
+
             <ListItem text="Autenticar tu identidad y mantener segura tu cuenta." />
+
             <ListItem text="Procesar y gestionar tus pedidos." />
+
             <ListItem text="Coordinar y realizar las entregas." />
+
             <ListItem text="Procesar los pagos asociados a tus compras." />
+
             <ListItem text="Brindar atención y soporte al cliente." />
+
             <ListItem text="Prevenir actividades fraudulentas y proteger la seguridad de nuestros servicios." />
+
             <ListItem text="Cumplir obligaciones legales y requerimientos de las autoridades competentes." />
+
             <ListItem text="Mejorar el funcionamiento y la experiencia de uso de la aplicación." />
           </div>
         </section>
 
-        {/* Pagos */}
+        {/* Procesamiento de pagos */}
         <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
           <SectionTitle
             icon={
@@ -148,7 +163,7 @@ export default function PoliticaPrivacidad() {
           />
 
           <p className="text-[16px] leading-7 text-[#5F5651]">
-            Para procesar los pagos realizados a través de Rimoda utilizamos
+            Para procesar los pagos realizados a través de Eclípsa utilizamos
             proveedores especializados en servicios de pago, como{" "}
             <strong>Wompi</strong>.
           </p>
@@ -161,12 +176,64 @@ export default function PoliticaPrivacidad() {
           </p>
 
           <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
-            Rimoda no utiliza la información de pago de los usuarios con fines
+            Eclípsa no utiliza la información de pago de los usuarios con fines
             publicitarios o de marketing.
           </p>
         </section>
 
-        {/* Compartición */}
+        {/* Transporte y entregas */}
+        <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
+          <SectionTitle
+            icon={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#2EC4B6"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 17h14" />
+                <path d="M6 17V7h8l4 4v6" />
+                <circle cx="8" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+                <path d="M14 7v4h4" />
+              </svg>
+            }
+            title="Transporte y entregas"
+          />
+
+          <p className="text-[16px] leading-7 text-[#5F5651]">
+            Para realizar la entrega de los pedidos, Eclípsa puede utilizar
+            proveedores de servicios de transporte y operadores logísticos
+            externos.
+          </p>
+
+          <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
+            Cuando sea necesario para completar una entrega, podremos compartir
+            con el proveedor de transporte información como el nombre del
+            destinatario, número de teléfono, dirección de entrega y los datos
+            necesarios para identificar y gestionar el pedido.
+          </p>
+
+          <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
+            Entre los proveedores de transporte que podemos utilizar se
+            encuentran empresas como <strong>Inter Rapidísimo</strong> y otros
+            operadores logísticos, dependiendo de la disponibilidad, cobertura
+            y características del servicio seleccionado para cada pedido.
+          </p>
+
+          <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
+            La información compartida con estos proveedores se limita, en la
+            medida razonablemente posible, a aquella necesaria para realizar y
+            gestionar la entrega.
+          </p>
+        </section>
+
+        {/* Compartición de información */}
         <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
           <SectionTitle
             icon={
@@ -191,22 +258,23 @@ export default function PoliticaPrivacidad() {
           />
 
           <p className="text-[16px] leading-7 text-[#5F5651]">
-            No vendemos los datos personales de nuestros usuarios.
+            Eclípsa no vende los datos personales de sus usuarios.
           </p>
 
           <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
-            Podemos compartir determinados datos con proveedores de servicios
-            que sean necesarios para el funcionamiento de Rimoda. Esto puede
-            incluir proveedores de procesamiento de pagos, servicios de
-            alojamiento, infraestructura tecnológica y servicios relacionados
-            con la entrega de pedidos.
+            Podemos compartir determinados datos personales con proveedores de
+            servicios que sean necesarios para el funcionamiento de Eclípsa.
+            Esto puede incluir proveedores de procesamiento de pagos, servicios
+            de alojamiento de datos e infraestructura tecnológica, empresas de
+            transporte y entrega, y otros proveedores necesarios para prestar
+            nuestros servicios.
           </p>
 
           <p className="mt-4 text-[16px] leading-7 text-[#5F5651]">
             También podremos divulgar información cuando sea necesario para
             cumplir obligaciones legales, responder a solicitudes de
             autoridades competentes, prevenir fraudes o proteger los derechos,
-            la seguridad y los bienes de Rimoda y de sus usuarios.
+            la seguridad y los bienes de Eclípsa y de sus usuarios.
           </p>
         </section>
 
@@ -310,20 +378,24 @@ export default function PoliticaPrivacidad() {
           />
 
           <p className="text-[16px] leading-7 text-[#5F5651]">
-            Dependiendo de la legislación aplicable, puedes ejercer derechos
+            De acuerdo con la legislación aplicable, puedes ejercer derechos
             relacionados con tus datos personales, incluyendo:
           </p>
 
           <div className="mt-4 space-y-3">
             <ListItem text="Solicitar información sobre los datos personales que tratamos." />
+
             <ListItem text="Solicitar la actualización o corrección de información incorrecta." />
+
             <ListItem text="Solicitar la eliminación de tus datos cuando sea legalmente procedente." />
+
             <ListItem text="Solicitar información sobre el uso y tratamiento de tus datos." />
+
             <ListItem text="Presentar consultas, solicitudes o reclamos relacionados con el tratamiento de tus datos personales." />
           </div>
         </section>
 
-        {/* Cuenta */}
+        {/* Administración de cuenta */}
         <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
           <SectionTitle
             icon={
@@ -347,7 +419,7 @@ export default function PoliticaPrivacidad() {
 
           <p className="text-[16px] leading-7 text-[#5F5651]">
             Los datos asociados a tu cuenta se utilizan para permitirte acceder
-            a Rimoda, gestionar tu información, consultar tus pedidos y utilizar
+            a Eclípsa, gestionar tu información, consultar tus pedidos y utilizar
             las funciones disponibles para usuarios registrados.
           </p>
 
@@ -398,7 +470,7 @@ export default function PoliticaPrivacidad() {
         {/* Footer */}
         <footer className="mt-10 border-t border-[#E9DED3] pt-7 text-center">
           <h2 className="text-xl font-extrabold text-[#1E1E1E]">
-            Gracias por confiar en Rimoda
+            Gracias por confiar en Eclípsa
           </h2>
 
           <p className="mt-2 text-sm leading-6 text-[#7A6E66]">
@@ -406,7 +478,7 @@ export default function PoliticaPrivacidad() {
           </p>
 
           <p className="mt-5 text-xs text-[#9B9088]">
-            © 2026 Rimoda. Todos los derechos reservados.
+            © 2026 Eclípsa. Todos los derechos reservados.
           </p>
         </footer>
       </div>
