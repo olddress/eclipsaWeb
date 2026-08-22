@@ -136,7 +136,6 @@ export default function PoliticaPrivacidad() {
 
             <ListItem text="Cumplir obligaciones legales y requerimientos de las autoridades competentes." />
 
-            <ListItem text="Mejorar el funcionamiento y la experiencia de uso de la aplicación." />
           </div>
         </section>
 
