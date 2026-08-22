@@ -232,7 +232,7 @@ export default function PoliticaPrivacidad() {
           </p>
         </section>
 
-        {/* Compartición de información */}
+        {/* Uso y divulgación de información */}
         <section className="mb-5 rounded-[22px] border border-[#E9DED3] bg-white p-6 shadow-sm sm:p-7">
           <SectionTitle
             icon={
@@ -253,7 +253,7 @@ export default function PoliticaPrivacidad() {
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
             }
-            title="Compartición de información"
+            title="Uso y divulgación de información"
           />
 
           <p className="text-[16px] leading-7 text-[#5F5651]">
