@@ -75,21 +75,21 @@ export default function PoliticaPrivacidad() {
           />
 
           <div className="space-y-3">
-            <ListItem text="Nombre" />
+            <ListItem text="Nombre." />
 
-            <ListItem text="Documento de identidad" />
+            <ListItem text="Documento de identidad." />
 
-            <ListItem text="Correo electrónico" />
+            <ListItem text="Correo electrónico." />
 
-            <ListItem text="Número de teléfono" />
+            <ListItem text="Número de teléfono." />
 
-            <ListItem text="Direcciones de entrega" />
+            <ListItem text="Direcciones de entrega." />
 
-            <ListItem text="Información relacionada con pedidos y compras" />
+            <ListItem text="Información relacionada con pedidos y compras." />
 
-            <ListItem text="Información necesaria para procesar pagos" />
+            <ListItem text="Información necesaria para procesar pagos." />
 
-            <ListItem text="Información técnica necesaria para el funcionamiento y seguridad de la aplicación" />
+            <ListItem text="Información técnica necesaria para el funcionamiento y seguridad de la aplicación." />
           </div>
         </section>
 
